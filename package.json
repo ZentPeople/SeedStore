@@ -1,0 +1,46 @@
+{
+  "name": "seedstore",
+  "version": "1.0.0",
+  "description": "A headless Ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startdev": "nodemon local.js",
+    "deploy": "serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZentPeople/SeedStore.git"
+  },
+  "keywords": [
+    "Seed",
+    "Store"
+  ],
+  "author": "Mohan Murugesan",
+  "dependencies": {
+    "aws-sdk": "^2.683.0",
+    "aws-serverless-express": "^3.3.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "compression": "^1.7.4",
+    "express": "^4.16.3",
+    "firebase-admin": "^8.12.1",
+    "helmet": "^3.21.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.2",
+    "multer-s3": "^2.9.0",
+    "node-fetch": "^2.6.0",
+    "serverless": "^1.71.3",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZentPeople/SeedStore/issues"
+  },
+  "homepage": "https://github.com/ZentPeople/SeedStore#readme"
+}
